@@ -95,3 +95,18 @@ p {
   box-shadow: var(--box-shadow);
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
